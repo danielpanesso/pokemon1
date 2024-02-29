@@ -1,0 +1,193 @@
+.poke-card
+{
+    border: 5px solid;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    gap: 5px;
+    position: relative;    
+}
+.poke-card:hover
+{
+    transform: scale(1.05);
+}
+.poke-card div{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+}
+.poke-card figure
+{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+.poke-type
+{
+    display: flex;
+    gap: 5px;
+
+}
+.poke-card hr
+{
+    width: 85%;
+}
+.poke-stats
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+    width: 85%;
+    gap: 10px;
+}
+.poke-stats li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slot2::before
+{
+    content: '/ ';
+}
+/* Colores de fondo dinamicos para alas cards */
+.bg-grass
+{
+    background-color: green;
+}
+.bd-grass
+{
+    border-color: green;
+}
+.bg-fairy
+{
+    background-color: rgb(255, 102, 0);
+}
+.bd-fairy
+{
+    border-color: rgb(255, 102, 0);
+}
+.bg-bug
+{
+    background-color: rgb(97, 62, 36);
+}
+.bd-bug
+{
+    border-color: rgb(97, 62, 36);
+}
+.bg-normal
+{
+    background-color: #A26270;
+}
+.bd-normal
+{
+    background-color: #A26270;
+}
+.bg-electric
+{
+    background-color: #3A40A8;
+}
+.bd-electric
+{
+    background-color: #3A40A8;
+}
+.bg-ground
+{
+    background-color: #95651E;
+}
+.bd-ground
+{
+    background-color: #95651E;
+}
+.bg-poison
+{
+    background-color: #A768E5;
+}
+.bd-poison
+{
+    background-color: #A768E5;
+}
+.bg-ghost
+{
+    background-color: rgb(135, 7, 255);
+}
+.bd-ghost
+{
+    background-color: rgb(135, 7, 255);
+}
+.bg-water
+{
+    background-color: rgb(7, 164, 255);
+}
+.bd-water
+{
+    border-color: rgb(7, 164, 255);
+}
+.bg-dragon
+{
+    background-color:#5DA6B0;
+}
+.bd-dragon
+{
+    border-color:#5DA6B0;
+}
+.bg-psychic
+{
+    background-color: rgb(255, 7, 172);
+}
+.bd-psychic
+{
+    border-color: rgb(255, 7, 172);
+}
+.bg-planta
+{
+    background-color: #92CFC6;
+}
+.bd-planta
+{
+    border-color: #92CFC6;
+}
+.bg-fighting
+{
+   background-color: #C25033;
+}
+.bd-fighting
+{
+   border-color: #C25033;
+}
+.bg-ice
+{
+    background-color: #65C9F3;
+}
+.bd-ice
+{
+    border-color: #65C9F3;
+}
+.bg-steel
+{
+    background-color: #687D76;
+}
+.bd-steel
+{
+    border-color: #687D76;
+}
+.bg-dark
+{
+    background-color: #1E2221;
+}
+.bd-dark
+{
+    border-color: #1E2221;
+}
+.bg-rock
+{
+    background-color: #929298;
+}
+.bd-rock
+{
+    border-color: #929298;
+}
